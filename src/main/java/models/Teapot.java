@@ -1,6 +1,6 @@
 package models;
 
-public class Teapot extends ElectricApp{
+public class Teapot extends ElectricApp {
     private float volume;
 
     public float getVolume() {
@@ -26,8 +26,8 @@ public class Teapot extends ElectricApp{
     }
 
     @Override
-    public String getClassName(){
-    return "Teapot";
+    public String getClassName() {
+        return "Teapot";
     }
 
     @Override

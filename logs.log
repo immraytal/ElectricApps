@@ -7,3 +7,14 @@
 2019-03-23 19:44:21 INFO  Apartment:19 - Unknown Fridge has been switched to true
 2019-03-23 19:45:03 INFO  Apartment:19 - Unknown Fridge has been switched to true
 2019-03-23 19:58:32 INFO  Apartment:19 - Unknown Fridge has been switched to true
+2019-03-24 14:59:24 INFO  Apartment:33 - [Teapot{volume=0.0}, Fridge{refrigeratorVolume=0.0, freezerVolume=0.0}, Tv{channels=0, fps=0}]
+2019-03-24 14:59:24 INFO  Apartment:19 - Unknown Fridge has been switched to true
+2019-03-24 15:38:03 INFO  Apartment:33 - Sort of class java.util.ArrayListhas been finished
+2019-03-24 15:38:03 INFO  Apartment:45 - [300.0-500.0] range search completed
+2019-03-24 15:38:04 INFO  Apartment:19 - Unknown Fridge has been switched to true
+2019-03-24 15:39:03 INFO  Apartment:33 - Sort of class java.util.ArrayListhas been finished
+2019-03-24 15:39:03 INFO  Apartment:45 - [300.0-500.0] range search completed
+2019-03-24 15:39:03 INFO  Apartment:19 - Unknown Fridge has been switched to true
+2019-03-24 15:39:14 INFO  Apartment:33 - Sort of class java.util.ArrayListhas been finished
+2019-03-24 15:39:15 INFO  Apartment:45 - [300.0-500.0] range search completed
+2019-03-24 15:39:15 INFO  Apartment:19 - Unknown Fridge has been switched to true

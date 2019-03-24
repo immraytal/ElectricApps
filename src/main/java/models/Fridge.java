@@ -43,8 +43,9 @@ public class Fridge extends ElectricApp {
                 ", freezerVolume=" + freezerVolume +
                 '}';
     }
+
     @Override
-    public String getClassName(){
-    return "Fridge";
+    public String getClassName() {
+        return "Fridge";
     }
 }

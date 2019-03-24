@@ -1,6 +1,6 @@
 package models;
 
-public class Tv extends ElectricApp{
+public class Tv extends ElectricApp {
     private int channels;
     private int fps;
 

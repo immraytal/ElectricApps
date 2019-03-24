@@ -5,6 +5,8 @@ public abstract class ElectricApp {
     private double capacity;
     private Boolean isConnect;
 
+    public abstract String getClassName();
+
     public double getCapacity() {
         return capacity;
     }
@@ -28,8 +30,6 @@ public abstract class ElectricApp {
     public void setModelName(String modelName) {
         this.modelName = modelName;
     }
-
-    public abstract String getClassName();
 
     public ElectricApp() {
         modelName = "Unknown";
