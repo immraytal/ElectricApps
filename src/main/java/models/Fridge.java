@@ -44,8 +44,4 @@ public class Fridge extends ElectricApp {
                 '}';
     }
 
-    @Override
-    public String getClassName() {
-        return "Fridge";
-    }
 }

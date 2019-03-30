@@ -23,10 +23,22 @@ public class ApartmentTest {
     }
 
     @Test
+    public void setAndGetApp() {
+        apartment.addApp(someapps.get(1));
+        Assert.assertEquals(apartment.getApp(0), someapps.get(1));
+    }
+
+    @Test
+    public void setAndRemoveApp() {
+        apartment.addApp(someapps.get(0));
+        apartment.removeApp(0);
+    }
+
+    @Test
     public void switchingApp() {
-        ElectricApp someFridge = new Fridge();
+        ElectricApp someFridge = new Fridge("someFridge", 220.0, false);
         apartment.switchingApp(someFridge, true);
-        Assert.assertEquals(someFridge.getConnect(), true);
+        Assert.assertEquals(someFridge.isPlugged(), true);
     }
 
     @Test
@@ -44,6 +56,12 @@ public class ApartmentTest {
     public void searchByRange() {
         List<ElectricApp> check = apartment.searchByRange(someapps, 300, 500);
         Assert.assertEquals(check.get(0).getModelName(), "someTv");
+        Assert.assertEquals(check.size(), 1);
+    }
+
+    @Test
+    public void searchByRangeTestSize() {
+        List<ElectricApp> check = apartment.searchByRange(someapps, 300, 500);
         Assert.assertEquals(check.size(), 1);
     }
 }

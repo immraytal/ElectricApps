@@ -1,20 +1,42 @@
-2019-03-23 14:11:06 INFO  Apartment:10 - Unknown Fridge has been switched to true
-2019-03-23 18:07:20 INFO  Apartment:16 - Unknown Fridge has been switched to true
-2019-03-23 18:25:32 INFO  Apartment:16 - Unknown Fridge has been switched to true
-2019-03-23 19:35:33 INFO  Apartment:19 - Unknown Fridge has been switched to true
-2019-03-23 19:36:44 INFO  Apartment:19 - Unknown Fridge has been switched to true
-2019-03-23 19:43:34 INFO  Apartment:19 - Unknown Fridge has been switched to true
-2019-03-23 19:44:21 INFO  Apartment:19 - Unknown Fridge has been switched to true
-2019-03-23 19:45:03 INFO  Apartment:19 - Unknown Fridge has been switched to true
-2019-03-23 19:58:32 INFO  Apartment:19 - Unknown Fridge has been switched to true
-2019-03-24 14:59:24 INFO  Apartment:33 - [Teapot{volume=0.0}, Fridge{refrigeratorVolume=0.0, freezerVolume=0.0}, Tv{channels=0, fps=0}]
-2019-03-24 14:59:24 INFO  Apartment:19 - Unknown Fridge has been switched to true
-2019-03-24 15:38:03 INFO  Apartment:33 - Sort of class java.util.ArrayListhas been finished
-2019-03-24 15:38:03 INFO  Apartment:45 - [300.0-500.0] range search completed
-2019-03-24 15:38:04 INFO  Apartment:19 - Unknown Fridge has been switched to true
-2019-03-24 15:39:03 INFO  Apartment:33 - Sort of class java.util.ArrayListhas been finished
-2019-03-24 15:39:03 INFO  Apartment:45 - [300.0-500.0] range search completed
-2019-03-24 15:39:03 INFO  Apartment:19 - Unknown Fridge has been switched to true
-2019-03-24 15:39:14 INFO  Apartment:33 - Sort of class java.util.ArrayListhas been finished
-2019-03-24 15:39:15 INFO  Apartment:45 - [300.0-500.0] range search completed
-2019-03-24 15:39:15 INFO  Apartment:19 - Unknown Fridge has been switched to true
+2019-03-30 11:00:15 INFO  Apartment:57 - Sort by capacity has been finished
+2019-03-30 11:00:15 INFO  Apartment:72 - [300.0-500.0] range search completed
+2019-03-30 11:00:15 INFO  Apartment:44 - Unknown Fridge has been switched to true
+2019-03-30 11:01:10 ERROR Apartment:38 - Unable to delete. Array out of range
+2019-03-30 11:01:10 INFO  Apartment:57 - Sort by capacity has been finished
+2019-03-30 11:01:10 INFO  Apartment:72 - [300.0-500.0] range search completed
+2019-03-30 11:01:10 INFO  Apartment:44 - Unknown Fridge has been switched to true
+2019-03-30 11:01:52 INFO  Apartment:57 - Sort by capacity has been finished
+2019-03-30 11:01:52 ERROR Apartment:23 - Unable to get app. Array out of range
+2019-03-30 11:01:52 INFO  Apartment:72 - [300.0-500.0] range search completed
+2019-03-30 11:01:52 INFO  Apartment:44 - Unknown Fridge has been switched to true
+2019-03-30 11:32:16 INFO  Apartment:57 - Sort by capacity has been finished
+2019-03-30 11:32:16 ERROR Apartment:23 - Unable to get app. Array out of range
+2019-03-30 11:32:16 INFO  Apartment:72 - [300.0-500.0] range search completed
+2019-03-30 11:32:16 INFO  Apartment:44 - Unknown Fridge has been switched to true
+2019-03-30 11:32:40 INFO  Apartment:57 - Sort by capacity has been finished
+2019-03-30 11:32:41 INFO  Apartment:72 - [300.0-500.0] range search completed
+2019-03-30 11:32:41 INFO  Apartment:44 - Unknown Fridge has been switched to true
+2019-03-30 12:23:35 INFO  Apartment:51 - Sort by capacity has been finished
+2019-03-30 12:23:35 INFO  Apartment:66 - [300.0-500.0] range search completed
+2019-03-30 12:23:35 INFO  Apartment:66 - [300.0-500.0] range search completed
+2019-03-30 12:23:35 INFO  Apartment:38 - Unknown class models.Fridge has been switched to true
+2019-03-30 12:26:17 INFO  Apartment:51 - Sort by capacity has been finished
+2019-03-30 12:26:18 INFO  Apartment:66 - [300.0-500.0] range search completed
+2019-03-30 12:26:18 INFO  Apartment:66 - [300.0-500.0] range search completed
+2019-03-30 12:26:18 INFO  Apartment:38 - Unknown class models.Fridge has been switched to true
+2019-03-30 12:26:54 INFO  Apartment:51 - Sort by capacity has been finished
+2019-03-30 12:26:54 INFO  Apartment:66 - [300.0-500.0] range search completed
+2019-03-30 12:26:54 INFO  Apartment:66 - [300.0-500.0] range search completed
+2019-03-30 12:27:14 INFO  Apartment:38 - Unknown class models.Fridge has been switched to true
+2019-03-30 12:28:49 INFO  Apartment:51 - Sort by capacity has been finished
+2019-03-30 12:28:49 INFO  Apartment:66 - [300.0-500.0] range search completed
+2019-03-30 12:28:49 INFO  Apartment:66 - [300.0-500.0] range search completed
+2019-03-30 12:28:49 INFO  Apartment:38 - Unknown class models.Fridge has been switched to true
+2019-03-30 12:30:09 INFO  Apartment:51 - Sort by capacity has been finished
+2019-03-30 12:30:09 INFO  Apartment:66 - [300.0-500.0] range search completed
+2019-03-30 12:30:09 INFO  Apartment:66 - [300.0-500.0] range search completed
+2019-03-30 12:30:09 INFO  Apartment:38 - someFridge class models.Fridge has been switched to true
+2019-03-30 13:27:06 INFO  Apartment:51 - Sort by capacity has been finished
+2019-03-30 13:27:06 INFO  Apartment:66 - [300.0-500.0] range search completed
+2019-03-30 13:27:06 INFO  Apartment:66 - [300.0-500.0] range search completed
+2019-03-30 13:27:06 INFO  Apartment:38 - someFridge class models.Fridge has been switched to true

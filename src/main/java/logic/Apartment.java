@@ -9,12 +9,33 @@ import java.util.List;
 
 public class Apartment {
 
-    private static final Logger log = Logger.getLogger(Apartment.class);
+    private static final Logger LOG = Logger.getLogger(Apartment.class);
     private List<ElectricApp> apps = new ArrayList<ElectricApp>();
 
+    public void addApp(ElectricApp someApp) {
+        apps.add(someApp);
+    }
+
+    public ElectricApp getApp(int index) {
+        try {
+            return apps.get(index);
+        } catch (IndexOutOfBoundsException e) {
+            LOG.error("Unable to get app. Array out of range");
+        }
+        return null;
+    }
+
+    public void removeApp(int index) {
+        try {
+            apps.remove(index);
+        } catch (IndexOutOfBoundsException e) {
+            LOG.error("Unable to delete. Array out of range");
+        }
+    }
+
     public void switchingApp(ElectricApp someApp, Boolean change) {
-        someApp.setConnect(change);
-        log.info(someApp.getModelName() + " " + someApp.getClassName() + " has been switched to " + change.toString());
+        someApp.setPlugged(change);
+        LOG.info(someApp.getModelName() + " " + someApp.getClass() + " has been switched to " + change.toString());
     }
 
     public double getAllCapacity(List<ElectricApp> inputApps) {
@@ -27,7 +48,7 @@ public class Apartment {
 
     public void sortByCapacity(List<ElectricApp> inputsApps) {
         inputsApps.sort(Comparator.comparing(ElectricApp::getCapacity));
-        log.info("Sort by capacity has been finished");
+        LOG.info("Sort by capacity has been finished");
     }
 
     public List<ElectricApp> searchByRange(List<ElectricApp> inputApps, double board1, double board2) {
@@ -42,7 +63,7 @@ public class Apartment {
                 founded.add(electricApp);
             }
         }
-        log.info("[" + board1 + "-" + board2 + "]" + " range search completed");
+        LOG.info("[" + board1 + "-" + board2 + "]" + " range search completed");
         return founded;
     }
 }

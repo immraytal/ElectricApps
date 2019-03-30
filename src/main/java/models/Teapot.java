@@ -26,11 +26,6 @@ public class Teapot extends ElectricApp {
     }
 
     @Override
-    public String getClassName() {
-        return "Teapot";
-    }
-
-    @Override
     public String toString() {
         return "Teapot{" +
                 "volume=" + volume +

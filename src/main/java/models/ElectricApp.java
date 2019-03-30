@@ -3,9 +3,7 @@ package models;
 public abstract class ElectricApp {
     private String modelName;
     private double capacity;
-    private Boolean isConnect;
-
-    public abstract String getClassName();
+    private Boolean plugged;
 
     public double getCapacity() {
         return capacity;
@@ -15,12 +13,12 @@ public abstract class ElectricApp {
         this.capacity = capacity;
     }
 
-    public Boolean getConnect() {
-        return isConnect;
+    public Boolean isPlugged() {
+        return plugged;
     }
 
-    public void setConnect(Boolean connect) {
-        isConnect = connect;
+    public void setPlugged(Boolean plugged) {
+        this.plugged = plugged;
     }
 
     public String getModelName() {
@@ -34,12 +32,12 @@ public abstract class ElectricApp {
     public ElectricApp() {
         modelName = "Unknown";
         capacity = 0.0;
-        isConnect = false;
+        plugged = false;
     }
 
-    public ElectricApp(String modelName, double capacity, Boolean isConnect) {
+    public ElectricApp(String modelName, double capacity, Boolean plugged) {
         this.modelName = modelName;
         this.capacity = capacity;
-        this.isConnect = isConnect;
+        this.plugged = plugged;
     }
 }

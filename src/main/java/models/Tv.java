@@ -37,11 +37,6 @@ public class Tv extends ElectricApp {
     }
 
     @Override
-    public String getClassName() {
-        return "Tv";
-    }
-
-    @Override
     public String toString() {
         return "Tv{" +
                 "channels=" + channels +
